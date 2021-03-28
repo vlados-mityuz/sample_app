@@ -22,6 +22,9 @@
 !/tmp/pids/
 !/tmp/pids/.keep
 
+#Ignore spring files
+/spring/*.pid
+
 # Ignore uploaded files in development.
 /storage/*
 !/storage/.keep
