@@ -43,6 +43,7 @@ group :test do
   gem 'mini_backtrace'
   # Easy installation and use of web drivers to run system tests with browsers
   gem 'guard-minitest'
+  gem 'rails-controller-testing'
 end
 
 group :production do

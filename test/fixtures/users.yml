@@ -3,7 +3,8 @@
 # one:
 #   name: MyString
 #   email: MyString
-
+one: {}
 # two:
 #   name: MyString
 #   email: MyString
+two: {}
