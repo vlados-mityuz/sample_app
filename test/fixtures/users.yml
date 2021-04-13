@@ -4,3 +4,16 @@ vlas:
   name: Vlas Example
   email: vlas@exxample.com
   password_digest: <%= User.digest('password') %>
+  admin: true
+
+tom:
+  name: Tom Stelmas
+  email: tom@exapmle.gov
+  password_digest: <%= User.digest('password') %>
+
+<% 30.times do |n| %>
+  user_<%= n %>:
+  name: <%= "User #{n}" %>
+  email: <%= "user-#{n}@example.com" %>
+  password_digest <%= User.digest('password') %>
+<% end %>
