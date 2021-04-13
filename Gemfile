@@ -12,6 +12,8 @@ gem 'uglifier'
 gem 'coffee-rails'
 gem 'jquery-rails'
 gem 'faker'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 gem 'sdoc', group: :doc
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
 gem 'webpacker', '~> 5.0'
