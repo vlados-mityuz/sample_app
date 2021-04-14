@@ -16,8 +16,8 @@ tom:
   activated_at: <%= Time.zone.now %>
 
 <% 30.times do |n| %>
-  user_<%= n %>:
-  name: <%= "User #{n}" %>
+user_<%= n %>:
+  name: <%= "User_#{n}" %>
   email: <%= "user-#{n}@example.com" %>
   password_digest: <%= User.digest('password') %>
   activated: true
